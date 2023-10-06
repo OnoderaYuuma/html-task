@@ -1,0 +1,19 @@
+body {
+    background-color: 	#ADD8E6;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    background-color: rgba(30,144,255, 0.5);
+}
+
+table, th, td {
+    border: solid 1px blue;
+}
+
+th, td {
+    width: 25%;
+}
