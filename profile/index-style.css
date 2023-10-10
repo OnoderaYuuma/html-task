@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.bg-gray {
+    background-color: gray;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+span {
+    border: 2px dotted green;
+}
