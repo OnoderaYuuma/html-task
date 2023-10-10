@@ -10,5 +10,5 @@ img {
 }
 
 span {
-    border: 2px dotted green;
+    border-bottom: 2px dotted green;
 }
