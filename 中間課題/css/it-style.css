@@ -1,0 +1,26 @@
+table ,table th ,table td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+table th {
+    width: 20%;
+}
+
+table td {
+    width: 80%;
+}
+
+table { 
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: lightskyblue;
+    width: 95%;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+    
+}

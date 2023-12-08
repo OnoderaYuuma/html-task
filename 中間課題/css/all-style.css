@@ -1,0 +1,68 @@
+body {
+    min-width: 700px;
+    background-color: #fffacd;
+}
+
+h1 {
+    text-align: center;
+}
+
+header, footer {
+    background-color: lightskyblue;
+    padding-top: 0.5rem;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header nav ul li:hover {
+    background-color: white;
+}
+
+header ul li a { 
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: blue;
+    /* 太字にするプロパティ */
+    font-weight: bold;
+}
+
+header ul li + li {
+    border-left: 2px solid #00552e;
+}
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs .pankuzu::before {
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+    color: lightblue;
+}
+
+.breadcrumbs li a:visited {
+    color: blue;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: none;
+}
