@@ -1,0 +1,73 @@
+body {
+    background-image: url("../talent/img/talent-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#top {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0 0 40px 0px;
+    text-align: center;
+    color: navy;
+}
+
+main {
+    width: 65%;
+    margin-left: 10%;
+}
+
+main h2 {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.name {
+    margin: 20px 0 0 30px;
+    font-size: 30px;
+    color: navy;
+    font-weight: bold;
+}
+
+main img {
+    width: 30%;
+    margin: 20px;
+}
+
+.p {
+    width: 70%;
+}
+
+main div {
+}
+
+main .talent-midasi {
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+}
+
+main .talent-p {
+    color: navy;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 15%;
+    margin-left: 5%;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.sidebar a {
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}

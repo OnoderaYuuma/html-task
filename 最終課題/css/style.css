@@ -1,0 +1,67 @@
+html {scroll-behavior: smooth;}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: navy;
+}
+
+#Logo {
+    background-color: white;
+    width: 200px;
+    height: 70px;
+    border-bottom: 0.6rem double #32a1ce;
+    border-right: 0.6rem double #32a1ce;
+    border-bottom-right-radius: 150px 250px;
+}
+
+#Logo img {
+    width: 150px;
+    height: 40px;
+    margin:  10px 0 0 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    margin: 10px 0 10px auto;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.nav-content {
+    margin: 13px 0 0 70px;
+    color: #4682b4;
+}
+
+.midasi {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.midasi p {
+    font-size: 64px;
+    color: navy;
+    position: relative;
+    top: -60px;
+    left: 50px;
+}

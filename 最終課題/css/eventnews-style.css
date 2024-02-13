@@ -1,0 +1,44 @@
+body {
+    background-image: url("../event&news/img/eventnews-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 100px 0;
+    text-align: center;
+    color: navy;
+}
+
+h2 {
+    margin: 0 0 20px 60px;
+    color: navy;
+}
+
+section {
+    margin: 0 5%;
+    margin-bottom: 100px;
+    background-color: rgba(220, 220, 220, 0.2);
+    border-radius: 10px;
+}
+
+.eventnews-midasi {
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: navy;
+}
+
+.content img {
+    padding: 10px;
+}
+
+.img {
+    width: 55%;
+}
+
+.content p {
+    padding: 10px;
+    font-weight: bold;
+}

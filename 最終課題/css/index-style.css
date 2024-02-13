@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/bgimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-link {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.link-title p {
+    width: 35%;
+    margin-left: 10%;
+    font-size: 30px;
+    color: navy;
+}
+
+.page-link a {
+    width: 35%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.page-link #talent {
+    background-image: url("/img/talent-link.png");
+    background-size: cover;
+}
+
+.page-link #talent:hover {
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    transform: translateY(-5px);
+}
+
+.page-link #eventnews:hover {
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+    transform: translateY(-5px);
+}
+
+.page-link #eventnews {
+    background-image: url("/img/expo2024.png");
+    background-size: cover;
+}
+
