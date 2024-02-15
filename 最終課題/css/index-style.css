@@ -25,7 +25,7 @@ body {
 }
 
 .page-link #talent {
-    background-image: url("/img/talent-link.png");
+    background-image: url("img/talent-link.png");
     background-size: cover;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .page-link #eventnews {
-    background-image: url("/img/expo2024.png");
+    background-image: url("img/expo2024.png");
     background-size: cover;
 }
 
